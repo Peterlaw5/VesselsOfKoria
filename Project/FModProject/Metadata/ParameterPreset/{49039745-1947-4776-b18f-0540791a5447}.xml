@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{49039745-1947-4776-b18f-0540791a5447}">
+        <property name="name">
+            <value>SorisStunBullet</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{98a62cca-0bd5-4c76-b721-95bb8fe1f8f0}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{98a62cca-0bd5-4c76-b721-95bb8fe1f8f0}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{011c2b93-4992-454e-b05d-2f4c250719b3}">
+        <property name="assetPath">
+            <value>Concrete on concrete_Shotgun-021.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>192</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>4.6308229166666663</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{37ec65d5-5f25-49de-9cc8-889adecf7a90}</destination>
+        </relationship>
+    </object>
+</objects>

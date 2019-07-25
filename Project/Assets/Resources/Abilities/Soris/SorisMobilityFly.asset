@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56c1579dad8af74280f82d24ed1469a, type: 3}
+  m_Name: SorisMobilityFly
+  m_EditorClassIdentifier: 
+  abilityName: Levitation
+  abilityDescription: You temporarily gain the power of flight.
+  abilitySprite: {fileID: 0}
+  abilityCommandIcon: {fileID: 0}
+  lifeTime: 1.5
+  range: 500
+  radius: 1
+  castSpeed: 0
+  travelSpeed: 0
+  cooldown: 6
+  reloadCooldown: 0
+  maxAmmo: 0
+  canHitMe: 0
+  isAttachedToPlayer: 1
+  attackFollowBoneRotation: 1
+  affectedByGravity: 0
+  attackDestroysOnWall: 0
+  attackDestroysOnGround: 0
+  castDirectionCamera: 0
+  onlyCastOnGround: 0
+  spawnNumber: 1
+  multiSpawnInterval: 0
+  stopIfStunned: 0
+  stopIfDead: 0
+  stopIfCannotAttack: 0
+  effects:
+  - {fileID: 11400000, guid: f5bd0deae9cd1c34697466f0c1210749, type: 2}
+  attackPrefabSpawnPoint: 2
+  attackDestroysOnFirstHit: 0
+  canHitMultipleTimes: 0
+  attackPrefab: {fileID: 5147599851991139583, guid: 357e01e6f1a4bef468320461b9fffd51,
+    type: 3}
+  attackModel: {fileID: 96360498006794937, guid: c7156849a30acd44ab4709814bd7a56a,
+    type: 3}
+  castAbilityOnDestroy: {fileID: 0}
+  hitWallPrefab: {fileID: 0}
+  applyZoom: 0
+  zoomMult: 1
+  zoomSpeed: 1

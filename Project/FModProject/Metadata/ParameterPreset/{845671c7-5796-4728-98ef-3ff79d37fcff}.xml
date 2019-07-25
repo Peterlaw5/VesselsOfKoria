@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{845671c7-5796-4728-98ef-3ff79d37fcff}">
+        <property name="name">
+            <value>VayvinSlowKnife</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{28145a43-a598-41d1-8a58-521f0eb57ed0}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{28145a43-a598-41d1-8a58-521f0eb57ed0}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

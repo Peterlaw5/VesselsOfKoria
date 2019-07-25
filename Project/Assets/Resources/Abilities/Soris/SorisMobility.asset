@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56c1579dad8af74280f82d24ed1469a, type: 3}
+  m_Name: SorisMobility
+  m_EditorClassIdentifier: 
+  abilityName: Levitation
+  abilityDescription: You temporarily gain the power of flight.
+  abilitySprite: {fileID: 21300000, guid: de641360d66f0ca42b446320639e9945, type: 3}
+  abilityCommandIcon: {fileID: 21300000, guid: 15871a72d2dd0db46b18292b65b3a327, type: 3}
+  lifeTime: 0.2
+  range: 0
+  radius: 1
+  castSpeed: 0
+  travelSpeed: 0
+  cooldown: 10
+  reloadCooldown: 0
+  maxAmmo: 0
+  consumeBaseAbilityAmmo: 0
+  canHitMe: 0
+  isAttachedToPlayer: 1
+  attackFollowBoneRotation: 1
+  affectedByGravity: 0
+  attackDestroysOnWall: 0
+  attackDestroysOnGround: 0
+  castDirectionCamera: 0
+  onlyCastOnGround: 0
+  spawnNumber: 1
+  multiSpawnInterval: 0
+  stopIfStunned: 0
+  stopIfDead: 0
+  stopIfCannotAttack: 0
+  effects:
+  - {fileID: 11400000, guid: 89aece0963c88ab489b551f90d62952a, type: 2}
+  attackPrefabSpawnPoint: 2
+  firstPersonSync: 0
+  attackDestroysOnFirstHit: 0
+  canHitMultipleTimes: 0
+  attackPrefab: {fileID: 5147599851991139583, guid: 357e01e6f1a4bef468320461b9fffd51,
+    type: 3}
+  attackModel: {fileID: 96360498006794937, guid: c7156849a30acd44ab4709814bd7a56a,
+    type: 3}
+  castAbilityOnDestroy: {fileID: 11400000, guid: 3cf2324226b1c7342a47f737cb0b46dc,
+    type: 2}
+  hitWallPrefab: {fileID: 0}
+  uiEffect: {fileID: 0}
+  applyZoom: 0
+  zoomMult: 1
+  zoomSpeed: 1
+  zoomMask: {fileID: 0}
+  animateCrosshair: 0
+  xMovment:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yMovment:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  abilitySound: event:/Soris/SorisMobility
+  soundTarget: 1

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{d36a132a-465b-4c78-af04-9aa8e68f6573}">
+        <property name="name">
+            <value>OgerthaGrabbing</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{b421bccb-f29f-4b2b-9af8-2139f2c3a05d}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{b421bccb-f29f-4b2b-9af8-2139f2c3a05d}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

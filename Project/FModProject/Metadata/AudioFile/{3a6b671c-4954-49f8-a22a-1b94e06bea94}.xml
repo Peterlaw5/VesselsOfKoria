@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{3a6b671c-4954-49f8-a22a-1b94e06bea94}">
+        <property name="assetPath">
+            <value>Soris/Steps/SorisStep3.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.3506575963718821</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{37ec65d5-5f25-49de-9cc8-889adecf7a90}</destination>
+        </relationship>
+    </object>
+</objects>

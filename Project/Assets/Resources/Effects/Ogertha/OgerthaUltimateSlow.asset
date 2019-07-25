@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140d323cc9ad6314cb2678ed0616b0b2, type: 3}
+  m_Name: OgerthaUltimateSlow
+  m_EditorClassIdentifier: 
+  particleEffect: {fileID: 0}
+  conditionForEffect: 0
+  isSelf: 0
+  canHitEnemy: 1
+  canHitAllies: 0
+  damage: 0
+  headshotMult: 1
+  stunTime: 0
+  speedMult: 0.5
+  speedTime: 5
+  forceOnCameraForward: 0
+  followCameraDirection: 0
+  appliedForceDirection: {x: 0, y: 0, z: 0}
+  applyForceTowardAttacker: 0
+  appliedForceTime: 0
+  appliedForceIntensity: 0
+  deactivateWithInput: 0
+  minCameraElevation: -90
+  keepForwardMomentum: 0
+  deactivateGravityTime: 0
+  deactivateMouseTime: 0
+  deactivateCameraRotation: 0
+  noClipTime: 0
+  cooldownReduction: 0
+  abilitiesToApplyCDR: 
+  damageReduction: 1
+  healthLevelReduction: 1
+  damageReductionTime: 0
+  invulnerabilityTime: 0
+  redirectedAbility: -1
+  substituteAbility: -1
+  redirectionTime: -1
+  saveHitPlayer: 0
+  keepHitPlayerTime: 0
+  teleportToSavedPlayer: 0
+  giveFeedbackOnScreen: 1

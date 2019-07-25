@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{37ce97ac-d0fd-49c5-9818-b77dce7bc530}">
+        <property name="name">
+            <value>VayvinTeleport</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{f04c57c6-ede0-4417-a2ee-4ad1a8f4f2ff}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{f04c57c6-ede0-4417-a2ee-4ad1a8f4f2ff}">
+        <property name="maximum">
+            <value>2</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

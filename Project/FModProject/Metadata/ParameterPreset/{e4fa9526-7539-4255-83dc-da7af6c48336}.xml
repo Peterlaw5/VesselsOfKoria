@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{e4fa9526-7539-4255-83dc-da7af6c48336}">
+        <property name="name">
+            <value>SorisAutoattack</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{17ed3751-c8e5-4b1d-9dd0-6ac1ee54e643}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{17ed3751-c8e5-4b1d-9dd0-6ac1ee54e643}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{878562e9-043c-40db-9ff8-66ef9426b6d2}">
+        <property name="assetPath">
+            <value>Ambient/10. Magical Elven Outpost.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>114.41347916666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{37ec65d5-5f25-49de-9cc8-889adecf7a90}</destination>
+        </relationship>
+    </object>
+</objects>

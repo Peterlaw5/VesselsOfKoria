@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EncodableAsset" id="{c920097f-6a0b-454f-a3bc-781602e6a758}">
+        <property name="assetPath">
+            <value>Vayvin/</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{37ec65d5-5f25-49de-9cc8-889adecf7a90}</destination>
+        </relationship>
+    </object>
+</objects>

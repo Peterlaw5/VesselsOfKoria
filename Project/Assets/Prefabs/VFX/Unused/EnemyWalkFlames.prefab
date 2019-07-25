@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9188929491125913772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2517004434324296738}
+  m_Layer: 0
+  m_Name: EnemyWalkFlames
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2517004434324296738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9188929491125913772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.8529263, z: 4.5413547}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 502070524410164364}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3624696669343164104
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2517004434324296738}
+    m_Modifications:
+    - target: {fileID: 7625056568073293514, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_Name
+      value: EnemyWalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321859298014684086, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: ExternalForcesModule.influenceList.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321859298014684086, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: ExternalForcesModule.influenceList.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321859298014684086, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855420130460845659, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878274640822980461, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694450689707422456, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800755815683315307, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8425105261455644170, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353874047004498168, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4169779189198109226, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 361427905482549815, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7881959986965190141, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215216165179851063, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9088397781913223039, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8466739736308981060, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2566797726491763863, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8753893605393413590, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1638934611789413372, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 563769448131332899, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788503995857153057, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 675002854382631846, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706432116517931323, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2377066664381325762, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 889139840022401176, guid: 1ba4ddca0b56a504daaf145310908865,
+        type: 3}
+      propertyPath: CollisionModule.plane0
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ba4ddca0b56a504daaf145310908865, type: 3}
+--- !u!4 &502070524410164364 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3799406486633108036, guid: 1ba4ddca0b56a504daaf145310908865,
+    type: 3}
+  m_PrefabInstance: {fileID: 3624696669343164104}
+  m_PrefabAsset: {fileID: 0}

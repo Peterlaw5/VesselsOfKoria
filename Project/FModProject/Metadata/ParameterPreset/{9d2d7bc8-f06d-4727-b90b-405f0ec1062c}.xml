@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{9d2d7bc8-f06d-4727-b90b-405f0ec1062c}">
+        <property name="name">
+            <value>LeapEnd</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{586452ff-42b2-4828-94ad-750d6d4e7c78}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{586452ff-42b2-4828-94ad-750d6d4e7c78}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

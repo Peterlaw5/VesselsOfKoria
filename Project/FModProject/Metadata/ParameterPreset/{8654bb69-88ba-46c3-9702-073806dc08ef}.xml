@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{8654bb69-88ba-46c3-9702-073806dc08ef}">
+        <property name="name">
+            <value>OgerthaDeath</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{3e0d2040-12e5-4131-92d8-9f57a7590898}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{3e0d2040-12e5-4131-92d8-9f57a7590898}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

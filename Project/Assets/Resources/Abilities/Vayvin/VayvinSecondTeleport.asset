@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56c1579dad8af74280f82d24ed1469a, type: 3}
+  m_Name: VayvinSecondTeleport
+  m_EditorClassIdentifier: 
+  abilityName: 
+  abilityDescription: 
+  abilitySprite: {fileID: 0}
+  abilityCommandIcon: {fileID: 0}
+  lifeTime: 0.2
+  destroyAtDeath: 0
+  range: 0
+  radius: 2
+  castSpeed: 0
+  travelSpeed: 0
+  cooldown: 1
+  reloadCooldown: 0
+  maxAmmo: 0
+  consumeBaseAbilityAmmo: 0
+  canHitMe: 0
+  isAttachedToPlayer: 1
+  attackFollowBoneRotation: 1
+  affectedByGravity: 0
+  attackDestroysOnWall: 0
+  attackDestroysOnGround: 0
+  castDirectionCamera: 0
+  onlyCastOnGround: 0
+  spawnNumber: 1
+  multiSpawnInterval: 0
+  stopIfStunned: 0
+  stopIfDead: 0
+  stopIfCannotAttack: 0
+  effects:
+  - {fileID: 11400000, guid: 1283662ed27091748a4515f9f11728b7, type: 2}
+  - {fileID: 11400000, guid: d7551d6f6eb5e0d4aa175919d4ac7294, type: 2}
+  attackPrefabSpawnPoint: 2
+  firstPersonSync: 0
+  attackDestroysOnFirstHit: 0
+  canHitMultipleTimes: 0
+  attackPrefab: {fileID: 5147599851991139583, guid: 357e01e6f1a4bef468320461b9fffd51,
+    type: 3}
+  attackModel: {fileID: 96360498006794937, guid: 4c180c56a19c41249baee747b360aa60,
+    type: 3}
+  castAbilityOnDestroy: {fileID: 0}
+  hitWallPrefab: {fileID: 4204221247903365058, guid: 5cdf2460d2b208a4294408ac6ea2f626,
+    type: 3}
+  missPrefab: {fileID: 0}
+  uiEffect: {fileID: 0}
+  applyZoom: 0
+  zoomMult: 1
+  zoomSpeed: 1
+  zoomMask: {fileID: 0}
+  animateCrosshair: 0
+  xMovment:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yMovment:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  abilitySound: event:/Vayvin/VayvinTeleport
+  soundParameter: VayvinTeleport
+  soundParameterValue: 2
+  soundTarget: 4

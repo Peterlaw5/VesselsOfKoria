@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56c1579dad8af74280f82d24ed1469a, type: 3}
+  m_Name: SorisFirst
+  m_EditorClassIdentifier: 
+  abilityName: Truesight
+  abilityDescription: A magical glyph improves your vision and damage dealt, enabling
+    pinpoint accuracy and Headshots.
+  abilitySprite: {fileID: 21300000, guid: 15a67190857ea4149b0a46d0682f5ad6, type: 3}
+  abilityCommandIcon: {fileID: 21300000, guid: 3e1190d4a95613a48a6f674462c45110, type: 3}
+  lifeTime: 0
+  destroyAtDeath: 0
+  range: 0
+  radius: 1
+  castSpeed: 0
+  travelSpeed: 0
+  cooldown: 0
+  reloadCooldown: 0
+  maxAmmo: 0
+  consumeBaseAbilityAmmo: 0
+  canHitMe: 0
+  isAttachedToPlayer: 0
+  attackFollowBoneRotation: 1
+  affectedByGravity: 0
+  attackDestroysOnWall: 0
+  attackDestroysOnGround: 0
+  castDirectionCamera: 0
+  onlyCastOnGround: 0
+  spawnNumber: 1
+  multiSpawnInterval: 0
+  stopIfStunned: 0
+  stopIfDead: 0
+  stopIfCannotAttack: 0
+  effects:
+  - {fileID: 11400000, guid: da2e9b550f3ff9b41ba06a7080551204, type: 2}
+  attackPrefabSpawnPoint: 2
+  firstPersonSync: 0
+  attackDestroysOnFirstHit: 1
+  canHitMultipleTimes: 0
+  attackPrefab: {fileID: 0}
+  attackModel: {fileID: 0}
+  castAbilityOnDestroy: {fileID: 0}
+  hitWallPrefab: {fileID: 0}
+  missPrefab: {fileID: 6029935839278377437, guid: 966e8db1a505ac04c9a4115569ab8bc3,
+    type: 3}
+  uiEffect: {fileID: 0}
+  applyZoom: 1
+  zoomMult: 2
+  zoomSpeed: 10
+  zoomMask: {fileID: 5747861775761835971, guid: 55cd92ed9e9488b4498e1c7534169bc6,
+    type: 3}
+  animateCrosshair: 0
+  xMovment:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yMovment:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  abilitySound: 
+  soundParameter: 
+  soundParameterValue: 0
+  soundTarget: 4

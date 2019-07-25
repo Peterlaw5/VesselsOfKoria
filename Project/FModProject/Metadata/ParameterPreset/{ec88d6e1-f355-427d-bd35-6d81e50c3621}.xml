@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{ec88d6e1-f355-427d-bd35-6d81e50c3621}">
+        <property name="name">
+            <value>AnnouncerTrackID</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{cbea64db-e2b5-41c6-bc70-5589899d954a}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{cbea64db-e2b5-41c6-bc70-5589899d954a}">
+        <property name="maximum">
+            <value>20</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

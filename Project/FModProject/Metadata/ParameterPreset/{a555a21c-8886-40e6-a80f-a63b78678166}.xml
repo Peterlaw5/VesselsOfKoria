@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{a555a21c-8886-40e6-a80f-a63b78678166}">
+        <property name="name">
+            <value>OgerthaUltimateEnd</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{e842154e-75be-4c2e-b00b-416f89c586c7}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{e842154e-75be-4c2e-b00b-416f89c586c7}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56c1579dad8af74280f82d24ed1469a, type: 3}
+  m_Name: VayvinBase
+  m_EditorClassIdentifier: 
+  abilityName: Shadow Daggers
+  abilityDescription: A small hidden blade that can be quickly thrown at enemies for
+    50 damage.
+  abilitySprite: {fileID: 21300000, guid: a5aed2f7ceaa66b4e9ce819561a16681, type: 3}
+  abilityCommandIcon: {fileID: 21300000, guid: e8e8288221e21f542b17ec29a3bd8e37, type: 3}
+  lifeTime: 5
+  destroyAtDeath: 0
+  range: 80
+  radius: 1
+  castSpeed: 0
+  travelSpeed: 250
+  cooldown: 0.4
+  reloadCooldown: 1.5
+  maxAmmo: 15
+  consumeBaseAbilityAmmo: 0
+  canHitMe: 0
+  isAttachedToPlayer: 0
+  attackFollowBoneRotation: 1
+  affectedByGravity: 0
+  attackDestroysOnWall: 1
+  attackDestroysOnGround: 0
+  castDirectionCamera: 0
+  onlyCastOnGround: 0
+  spawnNumber: 1
+  multiSpawnInterval: 0
+  stopIfStunned: 0
+  stopIfDead: 0
+  stopIfCannotAttack: 0
+  effects:
+  - {fileID: 11400000, guid: 2f4d82a2ff6089447b31795fdd5712b8, type: 2}
+  attackPrefabSpawnPoint: 2
+  firstPersonSync: 1
+  attackDestroysOnFirstHit: 1
+  canHitMultipleTimes: 0
+  attackPrefab: {fileID: 5147599851991139583, guid: 357e01e6f1a4bef468320461b9fffd51,
+    type: 3}
+  attackModel: {fileID: 8248914879855616957, guid: 73ee5c7eae3ab1448a44def48e7e92f9,
+    type: 3}
+  castAbilityOnDestroy: {fileID: 0}
+  hitWallPrefab: {fileID: 4204221247903365058, guid: 5cdf2460d2b208a4294408ac6ea2f626,
+    type: 3}
+  missPrefab: {fileID: 6210539346138787816, guid: b5a71b5e2a210d84cb93bbee066f73cc,
+    type: 3}
+  uiEffect: {fileID: 0}
+  applyZoom: 0
+  zoomMult: 1
+  zoomSpeed: 1
+  zoomMask: {fileID: 0}
+  animateCrosshair: 1
+  xMovment:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yMovment:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1
+      value: 9
+      inSlope: -100.0282
+      outSlope: -100.0282
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.052547995
+    - serializedVersion: 3
+      time: 0.29030246
+      value: 1.0525151
+      inSlope: -1.9523582
+      outSlope: -1.9523582
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.16436905
+    - serializedVersion: 3
+      time: 0.4
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  abilitySound: event:/Vayvin/VayvinAutoattack
+  soundParameter: 
+  soundParameterValue: 0
+  soundTarget: 4

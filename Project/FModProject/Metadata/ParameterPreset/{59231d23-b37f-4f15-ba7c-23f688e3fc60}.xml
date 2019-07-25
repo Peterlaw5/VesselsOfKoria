@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{59231d23-b37f-4f15-ba7c-23f688e3fc60}">
+        <property name="name">
+            <value>TitanCharging</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{fefca7ce-838a-4ce9-94d5-f36806c21953}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{fefca7ce-838a-4ce9-94d5-f36806c21953}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

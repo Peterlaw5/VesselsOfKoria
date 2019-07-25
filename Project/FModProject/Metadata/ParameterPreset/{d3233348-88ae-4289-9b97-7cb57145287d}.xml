@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{d3233348-88ae-4289-9b97-7cb57145287d}">
+        <property name="name">
+            <value>OgerthaAutoattack</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{9e639037-8b6f-46bf-a91a-ce8e0c53d530}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{9e639037-8b6f-46bf-a91a-ce8e0c53d530}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

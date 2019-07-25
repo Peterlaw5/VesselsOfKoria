@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{a78e2788-6bdd-4b56-a87c-4d912154fd17}">
+        <property name="name">
+            <value>TitanBase</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{61886bc4-792b-4fc1-81ff-955d7a0ba82d}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{61886bc4-792b-4fc1-81ff-955d7a0ba82d}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14848a98d0f8d134aa73f20eb4c8cf61, type: 3}
+  m_Name: Ogertha
+  m_EditorClassIdentifier: 
+  seekerId: 2
+  seekerName: Ogertha
+  heroTitle: The Walking Fortress
+  maxHealth: 450
+  baseSpeed: 11
+  jumpForce: 9
+  maxCarriedEnergy: 150
+  abilities:
+  - {fileID: 11400000, guid: 08d2aad70fd9c8b42804921d45441622, type: 2}
+  - {fileID: 11400000, guid: 6326613d6daaf414f8e2253a316ee0cd, type: 2}
+  - {fileID: 11400000, guid: 290d06243b4c3c14890530e0f1f4ddfa, type: 2}
+  - {fileID: 11400000, guid: 9484d3c19911a7049b3dfddc5dbb2842, type: 2}
+  - {fileID: 11400000, guid: 1b7dd8ac181437e4fb0fe6c0f20e774d, type: 2}
+  - {fileID: 11400000, guid: e73c8bf3c6c127e4f9c1bd0e4a77bacd, type: 2}
+  - {fileID: 11400000, guid: 0fa799efeb1fe96468e6d2ed4341ca60, type: 2}
+  - {fileID: 11400000, guid: 0fa799efeb1fe96468e6d2ed4341ca60, type: 2}
+  - {fileID: 11400000, guid: 0fa799efeb1fe96468e6d2ed4341ca60, type: 2}
+  - {fileID: 11400000, guid: 6580356be49bc89478c738848348a1c4, type: 2}
+  seekerSprite: {fileID: 21300000, guid: 2d7d661fc61fce243a8eca5ba70b8882, type: 3}
+  seekerSpriteBody: {fileID: 21300000, guid: 07f343ba494c7c04c949c5e6d0213163, type: 3}
+  baseAbilitySprite: {fileID: 21300000, guid: b2b4c615a25935d458cecb72b1e5b215, type: 3}
+  movementAbilitySprite: {fileID: 21300000, guid: 4f77844d97a7f1349a9e5a517145f573,
+    type: 3}
+  firstAbilitySprite: {fileID: 21300000, guid: 9cc8f252a0d473f4ea4945af57efddad, type: 3}
+  secondAbilitySprite: {fileID: 21300000, guid: dc43ffd868f5ead4797ac863a5befc3f,
+    type: 3}
+  ultimateAbilitySprite: {fileID: 21300000, guid: 6fd29d36c51062244b2749ddbb820f1f,
+    type: 3}
+  walk: event:/Ogertha/OgerthaWalk
+  jumpSound: event:/Ogertha/OgerthaJump
+  jumpSoundParameter: jump
+  takeoffParameterValue: 0
+  landParameterValue: 1
+  breathanddeath: event:/Ogertha/OgerthaDeath
+  reload: 
+  bodyPrefab: {fileID: 1183018774, guid: ea3aef057f2c71548b7ce51505181b83, type: 3}
+  seekerDesc: "<i>\u201CWhen Komuani, the great spirit of the Forlorn Steppes, perceives
+    a threat to his domain, he chooses a protector.\u201D</i><br><br>Ogertha, the
+    last of an ancient lineage of warriors, never cared much about prophecies: she
+    learned to wield a sword before she was even able to walk, and that\u2019s all
+    she needed\u2026 Or so she believed.<br>Everything changed the day she was defeated
+    in battle by a nameless invader that raided her village, forcing her to escape
+    while securing the lives of the survivors.<br>Alive with a shattered pride, Ogertha
+    found comfort in prayer. That\u2019s when Komuani answered, prompting her to journey
+    to the island of Koria. There, she would find the power to save her people and
+    bring justice to her homeland.<br>She ran away once. It won\u2019t happen again. "

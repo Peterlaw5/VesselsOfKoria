@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14848a98d0f8d134aa73f20eb4c8cf61, type: 3}
+  m_Name: Soris
+  m_EditorClassIdentifier: 
+  seekerId: 3
+  seekerName: Soris
+  heroTitle: Master of Duality
+  maxHealth: 350
+  baseSpeed: 11
+  jumpForce: 9
+  maxCarriedEnergy: 150
+  abilities:
+  - {fileID: 11400000, guid: 4139382446bac1042bb8fa9f9f17196d, type: 2}
+  - {fileID: 11400000, guid: 7d541f2220c08584bb2db87c1ae5148d, type: 2}
+  - {fileID: 11400000, guid: a074124fdcdc3e34bab2886c1b678e0d, type: 2}
+  - {fileID: 11400000, guid: ec791a344181385418676c24a1da39b2, type: 2}
+  - {fileID: 11400000, guid: 90f128b677df7d941bb259edc9e7d543, type: 2}
+  - {fileID: 11400000, guid: 283d0a6be33ad1f49bc18b7858d5daef, type: 2}
+  - {fileID: 11400000, guid: 5ae1faf9823261e45976ab1df81a4509, type: 2}
+  - {fileID: 11400000, guid: 131b1fcfb10a9f746b5ee602b0a5e3b4, type: 2}
+  - {fileID: 11400000, guid: 3cf2324226b1c7342a47f737cb0b46dc, type: 2}
+  - {fileID: 11400000, guid: a9c4dd19554a0dd46aaa66bcd6029211, type: 2}
+  seekerSprite: {fileID: 21300000, guid: 3bba477a017daed4595653b337fbe002, type: 3}
+  seekerSpriteBody: {fileID: 21300000, guid: 7823d69a0fad53a45b9dcdfa6be45d18, type: 3}
+  baseAbilitySprite: {fileID: 21300000, guid: 002b1e54fa5b37f49b6fb141d2e98e16, type: 3}
+  movementAbilitySprite: {fileID: 21300000, guid: de641360d66f0ca42b446320639e9945,
+    type: 3}
+  firstAbilitySprite: {fileID: 21300000, guid: ac68bf9ca05357b479e09fb0718b4eb5, type: 3}
+  secondAbilitySprite: {fileID: 21300000, guid: 15a67190857ea4149b0a46d0682f5ad6,
+    type: 3}
+  ultimateAbilitySprite: {fileID: 21300000, guid: 5f4b08e812c94c041bd4386a99c67d61,
+    type: 3}
+  walk: event:/Soris/SorisWalk
+  jumpSound: event:/Soris/SorisJump
+  jumpSoundParameter: jump
+  takeoffParameterValue: 0
+  landParameterValue: 1
+  breathanddeath: event:/Soris/SorisDeath
+  reload: event:/Soris/SorisReload
+  bodyPrefab: {fileID: 5287223192084128702, guid: 1eaad78566728c94fbb3a7bed3d8e135,
+    type: 3}
+  seekerDesc: "Healing magic is an art that requires years of practice and experience,
+    but none of that matters to Soris: he was simply born with it. <br>Recognized
+    as an utter prodigy by the monks of Shari\u2019laa, they believed that he could
+    be the chosen one to learn the Way of Duality, a sacred art that stands between
+    light and darkness, enabling its user to gain absolute control of both. <br>Soon
+    enough, Soris proved them right: he mastered everything the monks could teach
+    him\u2026 But that wasn\u2019t enough, as Soris was on the verge of stepping into
+    the unreachable realm of the Gods. To fully master the Way of Duality, Soris had
+    to tap into the arcane powers of the Island of Koria, elevating him to a state
+    of semi-omniscience. <br><br>The last part of his journey is about to begin. "

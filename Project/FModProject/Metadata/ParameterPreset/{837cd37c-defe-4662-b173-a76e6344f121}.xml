@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{837cd37c-defe-4662-b173-a76e6344f121}">
+        <property name="name">
+            <value>VayvinDeath</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{67b19019-934b-4144-905e-b8cde9dc28cf}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{67b19019-934b-4144-905e-b8cde9dc28cf}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

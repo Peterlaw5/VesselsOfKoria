@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140d323cc9ad6314cb2678ed0616b0b2, type: 3}
+  m_Name: VayvinSecondEffect
+  m_EditorClassIdentifier: 
+  particleEffect: {fileID: 0}
+  conditionForEffect: 1
+  isSelf: 1
+  canHitEnemy: 1
+  canHitAllies: 0
+  damage: 0
+  headshotMult: 1
+  stunTime: 0
+  speedMult: 1
+  speedTime: 0
+  forceOnCameraForward: 0
+  followCameraDirection: 0
+  appliedForceDirection: {x: 0, y: 0, z: 0}
+  applyForceTowardAttacker: 0
+  appliedForceTime: 0
+  appliedForceIntensity: 0
+  deactivateWithInput: 0
+  minCameraElevation: -90
+  keepForwardMomentum: 0
+  deactivateGravityTime: 0
+  deactivateMouseTime: 0
+  deactivateCameraRotation: 0
+  noClipTime: 0
+  cooldownReduction: 0
+  abilitiesToApplyCDR: 
+  damageReduction: 1
+  healthLevelReduction: 1
+  damageReductionTime: 0
+  invulnerabilityTime: 0
+  redirectedAbility: 3
+  substituteAbility: 7
+  redirectionTime: 3
+  saveHitPlayer: 1
+  keepHitPlayerTime: 3
+  teleportToSavedPlayer: 0
+  giveFeedbackOnScreen: 1

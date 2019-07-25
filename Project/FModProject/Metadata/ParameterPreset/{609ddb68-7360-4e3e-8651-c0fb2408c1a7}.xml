@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{609ddb68-7360-4e3e-8651-c0fb2408c1a7}">
+        <property name="name">
+            <value>VayvinAutoattack</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c0230d7a-9a38-4435-9920-bdd97b112898}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{78ebec30-66e3-46ac-95a7-f0ca2b783603}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{78ebec30-66e3-46ac-95a7-f0ca2b783603}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

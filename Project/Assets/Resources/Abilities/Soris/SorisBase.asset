@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56c1579dad8af74280f82d24ed1469a, type: 3}
+  m_Name: SorisBase
+  m_EditorClassIdentifier: 
+  abilityName: Spirit Orbs
+  abilityDescription: Throw a long range magical orb, dealing 20 damage.
+  abilitySprite: {fileID: 21300000, guid: 002b1e54fa5b37f49b6fb141d2e98e16, type: 3}
+  abilityCommandIcon: {fileID: 21300000, guid: e8e8288221e21f542b17ec29a3bd8e37, type: 3}
+  lifeTime: 2
+  destroyAtDeath: 0
+  range: 120
+  radius: 1
+  castSpeed: 0
+  travelSpeed: 400
+  cooldown: 0.3
+  reloadCooldown: 1.5
+  maxAmmo: 12
+  consumeBaseAbilityAmmo: 0
+  canHitMe: 0
+  isAttachedToPlayer: 0
+  attackFollowBoneRotation: 0
+  affectedByGravity: 0
+  attackDestroysOnWall: 1
+  attackDestroysOnGround: 0
+  castDirectionCamera: 0
+  onlyCastOnGround: 0
+  spawnNumber: 1
+  multiSpawnInterval: 0
+  stopIfStunned: 0
+  stopIfDead: 0
+  stopIfCannotAttack: 0
+  effects:
+  - {fileID: 11400000, guid: bcdc867279d9bac4ab665e26f0c5827b, type: 2}
+  - {fileID: 11400000, guid: 13f98210d86ab2b428d646ecef4cc9a7, type: 2}
+  attackPrefabSpawnPoint: 2
+  firstPersonSync: 1
+  attackDestroysOnFirstHit: 1
+  canHitMultipleTimes: 0
+  attackPrefab: {fileID: 5147599851991139583, guid: 357e01e6f1a4bef468320461b9fffd51,
+    type: 3}
+  attackModel: {fileID: 96360498006794937, guid: 4fbf16f024cabfe439e294f60ad137ee,
+    type: 3}
+  castAbilityOnDestroy: {fileID: 0}
+  hitWallPrefab: {fileID: 4204221247903365058, guid: 5cdf2460d2b208a4294408ac6ea2f626,
+    type: 3}
+  missPrefab: {fileID: 3019800277987574694, guid: b20009bf9002deb4c93e610635e792e1,
+    type: 3}
+  uiEffect: {fileID: 0}
+  applyZoom: 0
+  zoomMult: 1
+  zoomSpeed: 1
+  zoomMask: {fileID: 0}
+  animateCrosshair: 1
+  xMovment:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yMovment:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.1
+      value: 9
+      inSlope: -100.0282
+      outSlope: -100.0282
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.052547995
+    - serializedVersion: 3
+      time: 0.2732812
+      value: 2.2907553
+      inSlope: -1.9523582
+      outSlope: -1.9523582
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.16436905
+    - serializedVersion: 3
+      time: 0.4
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  abilitySound: event:/Soris/SorisAutoattack
+  soundParameter: 
+  soundParameterValue: 0
+  soundTarget: 4

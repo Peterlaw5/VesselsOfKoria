@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14848a98d0f8d134aa73f20eb4c8cf61, type: 3}
+  m_Name: Vayvin
+  m_EditorClassIdentifier: 
+  seekerId: 1
+  seekerName: Vayvin
+  heroTitle: The Lethal Blade
+  maxHealth: 300
+  baseSpeed: 11
+  jumpForce: 9
+  maxCarriedEnergy: 150
+  abilities:
+  - {fileID: 11400000, guid: 477bb805cbc76a94c8a095d9251d717e, type: 2}
+  - {fileID: 11400000, guid: 5ba36d89b7284824689b242b390cfbe6, type: 2}
+  - {fileID: 11400000, guid: d57c1c71cc576ea47a903811b75eb24b, type: 2}
+  - {fileID: 11400000, guid: 62056249b4507c541843a42da6a6d5af, type: 2}
+  - {fileID: 11400000, guid: 1ec0e9c93748a0d45aa2fedf72a31cc3, type: 2}
+  - {fileID: 11400000, guid: 3a3a3122069acaa4da041795e2ceab0b, type: 2}
+  - {fileID: 11400000, guid: 0fa799efeb1fe96468e6d2ed4341ca60, type: 2}
+  - {fileID: 11400000, guid: 9327cd5eab8db2b4c9e2ab6432dd03a1, type: 2}
+  - {fileID: 11400000, guid: 0fa799efeb1fe96468e6d2ed4341ca60, type: 2}
+  seekerSprite: {fileID: 21300000, guid: 830499fd44fa3be438816df4395c9f1b, type: 3}
+  seekerSpriteBody: {fileID: 21300000, guid: 260844016d22f63418bf7fee2bdbea24, type: 3}
+  baseAbilitySprite: {fileID: 21300000, guid: a5aed2f7ceaa66b4e9ce819561a16681, type: 3}
+  movementAbilitySprite: {fileID: 21300000, guid: 4fdd0e5232853b441ac23d1fd66dd3a8,
+    type: 3}
+  firstAbilitySprite: {fileID: 21300000, guid: 398dbfa561b02b24ea68f951662f5e6e, type: 3}
+  secondAbilitySprite: {fileID: 21300000, guid: e8e1900857493a748bd63daa675e5654,
+    type: 3}
+  ultimateAbilitySprite: {fileID: 21300000, guid: e096536a41e9722479f0caf5dfaee1fa,
+    type: 3}
+  walk: event:/Vayvin/VayvinWalk
+  jumpSound: event:/Vayvin/VayvinJump
+  jumpSoundParameter: jump
+  takeoffParameterValue: 0
+  landParameterValue: 1
+  breathanddeath: event:/Vayvin/VayvinDeath
+  reload: event:/Vayvin/VayvinReload
+  bodyPrefab: {fileID: 1124611256691339228, guid: dbcad776f84d697489e90b8deeaa0fc1,
+    type: 3}
+  seekerDesc: 'Born during the passage of a mysterious crimson comet, Vayvin spent
+    his entire life with a curse: an unquenchable thirst for blood. <br>Feared, cast
+    aside by his own people, he desperately sought a way to keep living in a way that
+    would cause the least amount of problems to himself. <br>Thus, he joined the Silent
+    Steps, a league of assassins that specializes in lightning-fast maneuvers and
+    long-range executions. <br>During one of his missions, he learned that there are
+    secret magical sources in the Island of Koria: a power so great that it could
+    dispel most spells.  <br><br>Believing that his blood curse may finally be undone,
+    he journeyed to the Island, seeking its secrets. '

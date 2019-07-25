@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56c1579dad8af74280f82d24ed1469a, type: 3}
+  m_Name: SorisSecondBullet
+  m_EditorClassIdentifier: 
+  abilityName: 
+  abilityDescription: 
+  abilitySprite: {fileID: 0}
+  abilityCommandIcon: {fileID: 0}
+  lifeTime: 1
+  range: 0
+  radius: 20
+  castSpeed: 0
+  travelSpeed: 0
+  cooldown: 5
+  reloadCooldown: 0
+  maxAmmo: 0
+  canHitMe: 0
+  isAttachedToPlayer: 0
+  attackFollowBoneRotation: 1
+  affectedByGravity: 0
+  attackDestroysOnWall: 0
+  attackDestroysOnGround: 0
+  castDirectionCamera: 0
+  onlyCastOnGround: 0
+  spawnNumber: 1
+  multiSpawnInterval: 0
+  stopIfStunned: 0
+  stopIfDead: 0
+  stopIfCannotAttack: 0
+  effects:
+  - {fileID: 11400000, guid: 0bcbe4ac0b6cad54c9dff10eac006c58, type: 2}
+  attackPrefabSpawnPoint: 5
+  firstPersonSync: 0
+  attackDestroysOnFirstHit: 0
+  canHitMultipleTimes: 0
+  attackPrefab: {fileID: 5147599851991139583, guid: 357e01e6f1a4bef468320461b9fffd51,
+    type: 3}
+  attackModel: {fileID: 96360498006794937, guid: afa4b16fe1d559c46ba169d53fb5b893,
+    type: 3}
+  castAbilityOnDestroy: {fileID: 0}
+  hitWallPrefab: {fileID: 4204221247903365058, guid: 5cdf2460d2b208a4294408ac6ea2f626,
+    type: 3}
+  uiEffect: {fileID: 0}
+  applyZoom: 0
+  zoomMult: 1
+  zoomSpeed: 1
+  zoomMask: {fileID: 0}
+  animateCrosshair: 0
+  xMovment:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yMovment:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  abilitySound: 

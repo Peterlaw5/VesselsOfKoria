@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 93d3f62c4ea6909b539f9e032be42e61
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box021
+    100002: Box021 1
+    100004: Box022
+    100006: Box023
+    100008: Box024
+    100010: //RootNode
+    100012: centromappa2
+    100014: centromappa2tot
+    100016: Default
+    100018: Default 1
+    100020: Default 2
+    100022: Default 3
+    100024: Default 4
+    100026: Default 5
+    100028: Default 6
+    100030: Default 7
+    100032: Default 8
+    100034: Main Camera
+    100036: Render
+    100038: Sky
+    100040: WallPerimeterColossal006
+    100042: WallPerimeterColossal008
+    100044: WallPerimeterColossal009
+    100046: WallPerimeterColossal010
+    400000: Box021
+    400002: Box021 1
+    400004: Box022
+    400006: Box023
+    400008: Box024
+    400010: //RootNode
+    400012: centromappa2
+    400014: centromappa2tot
+    400016: Default
+    400018: Default 1
+    400020: Default 2
+    400022: Default 3
+    400024: Default 4
+    400026: Default 5
+    400028: Default 6
+    400030: Default 7
+    400032: Default 8
+    400034: Main Camera
+    400036: Render
+    400038: Sky
+    400040: WallPerimeterColossal006
+    400042: WallPerimeterColossal008
+    400044: WallPerimeterColossal009
+    400046: WallPerimeterColossal010
+    2300000: Box021
+    2300002: Box021 1
+    2300004: Box022
+    2300006: Box023
+    2300008: Box024
+    2300010: WallPerimeterColossal006
+    2300012: WallPerimeterColossal008
+    2300014: WallPerimeterColossal009
+    2300016: WallPerimeterColossal010
+    3300000: Box021
+    3300002: Box021 1
+    3300004: Box022
+    3300006: Box023
+    3300008: Box024
+    3300010: WallPerimeterColossal006
+    3300012: WallPerimeterColossal008
+    3300014: WallPerimeterColossal009
+    3300016: WallPerimeterColossal010
+    4300000: Box021
+    4300002: WallPerimeterColossal006
+    4300004: Box022
+    4300006: Box021
+    4300008: WallPerimeterColossal008
+    4300010: WallPerimeterColossal009
+    4300012: WallPerimeterColossal010
+    4300014: Box023
+    4300016: Box024
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 1ab062a943f7c2420629b60b1b97b77d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

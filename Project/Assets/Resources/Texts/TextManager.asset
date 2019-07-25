@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d4b69c8d12fe0488dc0988ab2e5de3, type: 3}
+  m_Name: TextManager
+  m_EditorClassIdentifier: 
+  startMsg: {fileID: 11400000, guid: 5a2be21b525bac345be96a5e8f1e69c1, type: 2}
+  doubleKillMsg: {fileID: 11400000, guid: 46f1b24c6f96e684c906dad4538123a4, type: 2}
+  tripleKillMsg: {fileID: 11400000, guid: d892250679dac4144879b5357d5fda04, type: 2}
+  allyGenTakenMsg: {fileID: 11400000, guid: 6aa9394779c2c3245b12da00158576a0, type: 2}
+  enemyGenTakenMsg: {fileID: 11400000, guid: 4fb075b35e1efa34aaf752d6a0078682, type: 2}
+  neutralizeGenMsg: {fileID: 11400000, guid: 0311e6166a6c70c4f979b9a444a398a6, type: 2}
+  allyFinalAttackMsg: {fileID: 11400000, guid: e0a87fc9bb6e2e84f9dd77f428fdc85b, type: 2}
+  enemyFinalAttackMsg: {fileID: 11400000, guid: 029f31e66e4d5d6408a333691902b84a,
+    type: 2}
+  allyScreenWinMsg: {fileID: 11400000, guid: 4e7b3248686833f4e932a57cf50f013b, type: 2}
+  allyEndGameTitleWinMsg: VICTORY
+  enemyScreenWinMsg: {fileID: 11400000, guid: 4652185e4cd1f7c41a7ff57299567c79, type: 2}
+  enemyEndGameTitleWinMsg: DEFEAT
+  stunMsg: {fileID: 11400000, guid: 24df561b2712aa044aebf30318e4d3c3, type: 2}
+  snaredMsg: {fileID: 11400000, guid: b919538bd3ff6b04e9050f99dbe82c35, type: 2}
+  slowMsg: {fileID: 11400000, guid: f3380c59b419e6848aa52d0d06c25362, type: 2}
+  bestKillerMsg: Best Killer
+  bestKillerStringMsg: "{0} \n {1} Kills"
+  bestDamagerMsg: Best Damager
+  bestDamagerStringMsg: "{0} \n {1} damage"
+  bestCarrierMsg: Best Carrier
+  bestCarrierStringMsg: "{0} \n {1} Kor"
+  energyGoingToSpawnMsg: {fileID: 11400000, guid: ef3b4e0cf72e3fe44b23e56fd9f27056,
+    type: 2}
+  energyHasSpawnedMsg: {fileID: 11400000, guid: 694d9506151960a4b8d73a40d4be78c7,
+    type: 2}
+  respawningInMessage: 'Respawning in
+
+    {0}'
+  nobodyKillYouMsg: Nobody
+  killerStringMsg: '{0} killed {1}'
+  killedByMsg: {fileID: 11400000, guid: 2d644f7b57124f2439a83990cd6ee3a0, type: 2}
+  youKilledMsg: {fileID: 11400000, guid: 3f96709666d21904982716975ac7b921, type: 2}
+  finalPhaseMsg: {fileID: 11400000, guid: 73efe62158f9f02449e5eeefb08bed79, type: 2}
+  ultimateStartMsg: {fileID: 11400000, guid: 40864e6f581899b488b71f38d32ad068, type: 2}
+  emptyNameAutoFill: SEEKER{0}
+  screenTextList:
+  - {fileID: 11400000, guid: 2d644f7b57124f2439a83990cd6ee3a0, type: 2}
+  - {fileID: 11400000, guid: 46f1b24c6f96e684c906dad4538123a4, type: 2}
+  - {fileID: 11400000, guid: ef3b4e0cf72e3fe44b23e56fd9f27056, type: 2}
+  - {fileID: 11400000, guid: 694d9506151960a4b8d73a40d4be78c7, type: 2}
+  - {fileID: 11400000, guid: e0a87fc9bb6e2e84f9dd77f428fdc85b, type: 2}
+  - {fileID: 11400000, guid: 029f31e66e4d5d6408a333691902b84a, type: 2}
+  - {fileID: 11400000, guid: 73efe62158f9f02449e5eeefb08bed79, type: 2}
+  - {fileID: 11400000, guid: 6aa9394779c2c3245b12da00158576a0, type: 2}
+  - {fileID: 11400000, guid: 4fb075b35e1efa34aaf752d6a0078682, type: 2}
+  - {fileID: 11400000, guid: 0311e6166a6c70c4f979b9a444a398a6, type: 2}
+  - {fileID: 11400000, guid: 3f96709666d21904982716975ac7b921, type: 2}
+  - {fileID: 11400000, guid: 4652185e4cd1f7c41a7ff57299567c79, type: 2}
+  - {fileID: 11400000, guid: f3380c59b419e6848aa52d0d06c25362, type: 2}
+  - {fileID: 11400000, guid: b919538bd3ff6b04e9050f99dbe82c35, type: 2}
+  - {fileID: 11400000, guid: 5a2be21b525bac345be96a5e8f1e69c1, type: 2}
+  - {fileID: 11400000, guid: 24df561b2712aa044aebf30318e4d3c3, type: 2}
+  - {fileID: 11400000, guid: d892250679dac4144879b5357d5fda04, type: 2}
+  - {fileID: 11400000, guid: 40864e6f581899b488b71f38d32ad068, type: 2}
+  - {fileID: 11400000, guid: 4e7b3248686833f4e932a57cf50f013b, type: 2}
